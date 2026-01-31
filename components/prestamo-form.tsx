@@ -108,7 +108,7 @@ export function PrestamoForm() {
             <Label htmlFor="nombreCliente">Nombre Completo del Cliente</Label>
             <Input
               id="nombreCliente"
-              placeholder="Ej: Juan Perez Garcia"
+              placeholder="Nombre Completo"
               value={formData.nombreCliente}
               onChange={(e) => handleChange('nombreCliente', e.target.value)}
               required
